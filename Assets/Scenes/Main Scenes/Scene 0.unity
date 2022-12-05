@@ -10858,34 +10858,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-<<<<<<< Updated upstream
-=======
-  - first: {x: 11, y: 12, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 10
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 12, y: 12, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 10
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
->>>>>>> Stashed changes
   - first: {x: 13, y: 12, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 10
+      m_TileIndex: 12
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11364,8 +11341,8 @@ Tilemap:
   - first: {x: 10, y: 13, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 12
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11374,8 +11351,8 @@ Tilemap:
   - first: {x: 13, y: 13, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 12
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11396,29 +11373,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 0
       m_TileSpriteIndex: 0
-<<<<<<< Updated upstream
-=======
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 14, y: 13, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 15, y: 13, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
->>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -17756,7 +17710,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 26
+  - m_RefCount: 22
     m_Data: {fileID: 11400000, guid: f09ffe2b23972884d8d1207f423f9d8c, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 7cdc134197ff5f344935afec5a702db8, type: 2}
@@ -17774,21 +17728,16 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c8c7fe8cf911bfb4691afc92f1536681, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: fa4216bbfcb507d469cf6ee47bdfec1c, type: 2}
-  - m_RefCount: 26
+  - m_RefCount: 23
     m_Data: {fileID: 11400000, guid: 7fd8bb8450e6c39498b580efef066332, type: 2}
   - m_RefCount: 28
     m_Data: {fileID: 11400000, guid: d68b985b9c80cf04b986fa5b19421cc2, type: 2}
   - m_RefCount: 1600
     m_Data: {fileID: 11400000, guid: 321efd48ffaffa64f9ea6bfed783efb4, type: 2}
-<<<<<<< Updated upstream
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: fe5b0454ef2802e478ba6328c789d1d0, type: 2}
-=======
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
->>>>>>> Stashed changes
   m_TileSpriteArray:
-  - m_RefCount: 26
+  - m_RefCount: 22
     m_Data: {fileID: -55327279, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -17802,18 +17751,13 @@ Tilemap:
     m_Data: {fileID: 1696237488, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
   - m_RefCount: 26
     m_Data: {fileID: 550200758, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
-<<<<<<< Updated upstream
   - m_RefCount: 3
     m_Data: {fileID: 2108610234, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
-=======
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
->>>>>>> Stashed changes
   - m_RefCount: 1
     m_Data: {fileID: -191437661, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 367213600, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
-  - m_RefCount: 26
+  - m_RefCount: 23
     m_Data: {fileID: 9124909, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1532090588, guid: 09c2ffe5c310ffa4c805dd45eec2d6dd, type: 3}
@@ -17993,7 +17937,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b12784540c3c1a74a880e7f33901e3e9, type: 2}
+  - {fileID: 2100000, guid: c109cf77fc9c39d41a2fde09a484198f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22052,22 +21996,17 @@ PrefabInstance:
     - target: {fileID: 29743431164973224, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.8288393
-      objectReference: {fileID: 0}
-    - target: {fileID: 29743431164973224, guid: 49ac88dab272f9e49984ffbda925f6b7,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.1827351
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 29743431164973224, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.8471
+      value: 12.16
       objectReference: {fileID: 0}
     - target: {fileID: 29743431164973224, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.9701
+      value: 14.54
       objectReference: {fileID: 0}
     - target: {fileID: 29743431164973224, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -22158,12 +22097,9 @@ Transform:
   m_Children:
   - {fileID: 1610045579}
   - {fileID: 1638095686}
-<<<<<<< Updated upstream
   - {fileID: 320520268}
   - {fileID: 760174514}
   - {fileID: 1736911296}
-=======
->>>>>>> Stashed changes
   - {fileID: 947251886}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -23231,6 +23167,103 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1736911295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736911296}
+  - component: {fileID: 1736911298}
+  - component: {fileID: 1736911297}
+  m_Layer: 0
+  m_Name: Exit Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736911296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736911295}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.18, y: 13.04, z: 1.5217279}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1240001285}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &1736911297
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736911295}
+  m_Enabled: 1
+  m_SortingLayerID: -1998343457
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+--- !u!212 &1736911298
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736911295}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 937297505, guid: b1203e26d4b7e2e4489b041b5f264bbe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.25, y: 4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1772731275
 GameObject:
   m_ObjectHideFlags: 0
@@ -23470,11 +23503,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
 --- !u!1 &1991104721
-=======
---- !u!1 &1975459161
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23482,24 +23511,16 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
   - component: {fileID: 1991104722}
   - component: {fileID: 1991104724}
   - component: {fileID: 1991104723}
   m_Layer: 0
   m_Name: Model
-=======
-  - component: {fileID: 1975459163}
-  - component: {fileID: 1975459162}
-  m_Layer: 0
-  m_Name: portal
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
 --- !u!4 &1991104722
 Transform:
   m_ObjectHideFlags: 0
@@ -23534,19 +23555,12 @@ MonoBehaviour:
   SwitchToOffSpriteButton: 0
   SwitchToOnSpriteButton: 0
 --- !u!212 &1991104724
-=======
---- !u!212 &1975459162
->>>>>>> Stashed changes
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 1991104721}
-=======
-  m_GameObject: {fileID: 1975459161}
->>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -23578,49 +23592,20 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-<<<<<<< Updated upstream
   m_SortingLayerID: -1998343457
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -427433025, guid: 1c98de50637901641a0266ca8692105f, type: 3}
-=======
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ffad56e8b8f9d2e4c93b27738ffb6d51, type: 3}
->>>>>>> Stashed changes
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-<<<<<<< Updated upstream
   m_Size: {x: 2, y: 2}
-=======
-  m_Size: {x: 2.75, y: 3}
->>>>>>> Stashed changes
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< Updated upstream
-=======
---- !u!4 &1975459163
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975459161}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.07, y: 10.1, z: 0}
-  m_LocalScale: {x: 1.7549, y: 1.7549, z: 1.7549}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!1 &2124285559
 GameObject:
   m_ObjectHideFlags: 0
