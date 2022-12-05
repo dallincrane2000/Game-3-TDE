@@ -42932,7 +42932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806402735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.52, y: 2.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42968,7 +42968,7 @@ MonoBehaviour:
   PlayerPrefabs:
   - {fileID: 3730889546843735770, guid: 536ea8aa1480046429c942ec2f42e7f7, type: 3}
   SceneCharacters: []
-  InitialSpawnPoint: {fileID: 0}
+  InitialSpawnPoint: {fileID: 735784019}
   CurrentCheckpoint: {fileID: 0}
   PointsOfEntry: []
   IntroFadeDuration: 0.1
