@@ -329,7 +329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello friends, how's it going?
+  m_Text: Maybe you should try pushing that box on that pressure pad.
 --- !u!1 &7865335427712696401
 GameObject:
   m_ObjectHideFlags: 0
