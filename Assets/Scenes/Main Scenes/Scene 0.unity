@@ -22839,7 +22839,7 @@ MonoBehaviour:
   AlwaysShowPrompt: 0
   ShowPromptWhenColliding: 1
   HidePromptAfterUse: 1
-  PromptRelativePosition: {x: 0, y: 2, z: 0}
+  PromptRelativePosition: {x: 0, y: 3, z: 0}
   PromptRotation: {x: 0, y: 0, z: 0}
   ActivationFeedback: {fileID: 0}
   DeniedFeedback: {fileID: 0}
@@ -22863,7 +22863,7 @@ MonoBehaviour:
   Alignment: 4
   FadeDuration: 0.2
   TransitionTime: 0.2
-  Offset: {x: 0, y: 2, z: 0}
+  Offset: {x: 0, y: 3, z: 0}
   BoxesFollowZone: 0
   CanMoveWhileTalking: 0
   ButtonHandled: 1
@@ -22871,8 +22871,9 @@ MonoBehaviour:
   ActivableMoreThanOnce: 1
   InactiveTime: 2
   Dialogue:
-  - DialogueLine: Hello!
-  - DialogueLine: Maybe you should try pusing that box on that pressure pad.
+  - DialogueLine: Go now my son! Save me from this eary and painful death!
+  - DialogueLine: 'You must collect all 3 divine souls to save me. '
+  - DialogueLine: Wihtout that! I will die....
 --- !u!61 &1794994629
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22886,7 +22887,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07007313, y: -0.25711533}
+  m_Offset: {x: 0.046352416, y: -0.25711533}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -22897,7 +22898,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.56754076, y: 0.45070547}
+  m_Size: {x: 0.5200993, y: 0.45070547}
   m_EdgeRadius: 0
 --- !u!1 &1906566755
 GameObject:
