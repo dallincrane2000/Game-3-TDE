@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 3730889546843735598}
   - component: {fileID: 3730889546843735597}
   - component: {fileID: 2825044549098561235}
-  - component: {fileID: 951398676015461051}
   m_Layer: 10
   m_Name: Character
   m_TagString: Player
@@ -260,7 +259,7 @@ MonoBehaviour:
     CanInterruptRefill: 1
     CooldownState: 0
     CurrentDurationLeft: 0
-  InvincibleWhileDashing: 0
+  InvincibleWhileDashing: 1
   DashFeedback: {fileID: 0}
 --- !u!114 &3730889546843735763
 MonoBehaviour:
@@ -512,19 +511,6 @@ MonoBehaviour:
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
   CurrentWeapon: {fileID: 0}
---- !u!114 &951398676015461051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3730889546843735596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ad544a1fc5f1ea439d97c36be31b270, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  journal: {fileID: 0}
 --- !u!1 &3730889548295138932
 GameObject:
   m_ObjectHideFlags: 0
