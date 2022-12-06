@@ -1715,7 +1715,7 @@ PrefabInstance:
     - target: {fileID: 139808578394546510, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
       propertyPath: LevelName
-      value: Scene 2
+      value: TutorialPlates
       objectReference: {fileID: 0}
     - target: {fileID: 185901945864107702, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -38370,6 +38370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: 1603220759
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394167756825912785, guid: 500fbc87fd8b5514dbe33404eabe0cae,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2417991357035121450, guid: 500fbc87fd8b5514dbe33404eabe0cae,
         type: 3}
