@@ -21382,7 +21382,7 @@ PrefabInstance:
     - target: {fileID: 139808578394546510, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
       propertyPath: LevelName
-      value: Scene 2
+      value: TutorialEnemies
       objectReference: {fileID: 0}
     - target: {fileID: 185901945864107702, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -22914,6 +22914,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: DivineSoul
       objectReference: {fileID: 0}
+    - target: {fileID: 6880104001253516725, guid: 500fbc87fd8b5514dbe33404eabe0cae,
+        type: 3}
+      propertyPath: Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 1592bd12b16c62a438df214272ff2b45,
+        type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 500fbc87fd8b5514dbe33404eabe0cae, type: 3}
