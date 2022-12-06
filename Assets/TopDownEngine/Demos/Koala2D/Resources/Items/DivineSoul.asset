@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
   m_Name: DivineSoul
   m_EditorClassIdentifier: 
-  ItemID: KoalaCoin
+  ItemID: DivineSoul
   TargetInventoryName: KoalaMainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
   ShortDescription: Soul of the divine
   Description: This soul has magical healing properties.
   Icon: {fileID: -1682916028, guid: 6a56a18078c29bb43907d25528374d2a, type: 3}
-  Prefab: {fileID: 5817111401897077725, guid: 500fbc87fd8b5514dbe33404eabe0cae, type: 3}
+  Prefab: {fileID: 5768305490894603558, guid: 500fbc87fd8b5514dbe33404eabe0cae, type: 3}
   DropProperties:
     Shape: 0
     NormalToSpawnPlane: {x: 0, y: 1, z: 0}
