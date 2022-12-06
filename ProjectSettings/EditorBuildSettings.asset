@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu Scenes/StartMenu.unity
     guid: 76cc72e0956a27142becc6e99f03283a
   - enabled: 1
+    path: Assets/Scenes/Main Scenes/Scene 0.unity
+    guid: 29ddb362bacfde14ca4fbb733b00c69c
+  - enabled: 1
     path: Assets/Scenes/Main Scenes/Scene 1.unity
     guid: 273c93536aec7aa4c941cf02439061c3
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Main Scenes/Scene 0.unity
-    guid: 29ddb362bacfde14ca4fbb733b00c69c
   - enabled: 1
     path: Assets/Scenes/Tutorial Scenes/TutorialEnemies.unity
     guid: 3064ec445013a824e994d0f3571bfd60
