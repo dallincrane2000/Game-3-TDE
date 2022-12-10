@@ -5361,7 +5361,7 @@ Transform:
   - {fileID: 7952177434298415386}
   - {fileID: 8809699084987286478}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &8875820963423816455
 Rigidbody2D:
@@ -5618,11 +5618,10 @@ MonoBehaviour:
   BlockingConditionStates: 
   InitialWeapon: {fileID: 114317679573123918, guid: d5eed706b0da0e749a77545b3cdc292b,
     type: 3}
-  CanPickupWeapons: 1
+  CanPickupWeapons: 0
   WeaponUseFeedback: {fileID: 0}
   WeaponAttachment: {fileID: 8902942796446377953}
-  ProjectileSpawn: {fileID: 2398699204729028, guid: 672ecf76ecda7f14c854e4e87abdb0ff,
-    type: 3}
+  ProjectileSpawn: {fileID: 0}
   AutomaticallyBindAnimator: 1
   AmmoDisplayID: 0
   AutoIK: 1
