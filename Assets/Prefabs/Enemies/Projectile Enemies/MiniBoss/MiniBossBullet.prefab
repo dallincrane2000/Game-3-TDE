@@ -5174,7 +5174,7 @@ GameObject:
   - component: {fileID: 4965262212949672384}
   - component: {fileID: 4936658592783044038}
   m_Layer: 18
-  m_Name: BossBullet
+  m_Name: MiniBossBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 2409582507024622140}
   - component: {fileID: 2410362742231301858}
   m_Layer: 0
-  m_Name: BossWeapon
+  m_Name: MiniBossWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

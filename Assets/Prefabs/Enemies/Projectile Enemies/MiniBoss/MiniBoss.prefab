@@ -5339,7 +5339,7 @@ GameObject:
   - component: {fileID: 4033684374780168836}
   - component: {fileID: 3823082719871234063}
   m_Layer: 13
-  m_Name: Boss
+  m_Name: MiniBoss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
