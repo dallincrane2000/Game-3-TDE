@@ -21445,6 +21445,10 @@ PrefabInstance:
       value: Minimal2DCameras --------------------------------------------------------
         (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1115842849705874, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1289972819453418, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -22661,8 +22665,8 @@ MonoBehaviour:
   RequiresButtonActivationAbility: 1
   Activable: 1
   AutoActivation: 1
-  AutoActivationDelay: 1
-  AutoActivationDelayResetsOnExit: 1
+  AutoActivationDelay: 0.5
+  AutoActivationDelayResetsOnExit: 0
   CanOnlyActivateIfGrounded: 0
   ShouldUpdateState: 1
   OnlyOneActivationAtOnce: 1
@@ -22675,7 +22679,7 @@ MonoBehaviour:
   DisableAfterUse: 0
   InputType: 0
   InputButton: Interact
-  InputKey: 32
+  InputKey: 101
   AnimationTriggerParameterName: 
   UseVisualPrompt: 1
   ButtonPromptPrefab: {fileID: 114767332097364426, guid: bb1fc0f1f16f31248b9b4d80aa795609,
@@ -22713,14 +22717,15 @@ MonoBehaviour:
   Offset: {x: 0, y: 3, z: 0}
   BoxesFollowZone: 0
   CanMoveWhileTalking: 0
-  ButtonHandled: 1
+  ButtonHandled: 0
   MessageDuration: 3
   ActivableMoreThanOnce: 1
   InactiveTime: 2
   Dialogue:
-  - DialogueLine: Go now my son! Save me from this eary and painful death!
-  - DialogueLine: 'You must collect all 3 divine souls to save me. '
-  - DialogueLine: Wihtout that! I will die....
+  - DialogueLine: Come here... I have need of you...
+  - DialogueLine: My energy withers. I require more souls to sustain myself...
+  - DialogueLine: Take this portal...take the souls of the strong beings there and
+      return to me.
 --- !u!61 &1794994629
 BoxCollider2D:
   m_ObjectHideFlags: 0
