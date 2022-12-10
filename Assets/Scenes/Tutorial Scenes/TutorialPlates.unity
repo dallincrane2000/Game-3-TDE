@@ -10639,6 +10639,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: Dialogue.Array.data[1].DialogueLine
+      value: Maybe you should try pushing that box onto the pressure plate.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a8530fe1d28f33468ace1ef6e3ac852, type: 3}
