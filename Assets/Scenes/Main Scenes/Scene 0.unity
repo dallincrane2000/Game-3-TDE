@@ -22582,7 +22582,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638095685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.36, y: -0.05, z: 0}
+  m_LocalPosition: {x: 1.05, y: 0.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22731,8 +22731,8 @@ MonoBehaviour:
   RequiresPlayerType: 1
   RequiresButtonActivationAbility: 1
   Activable: 1
-  AutoActivation: 0
-  AutoActivationDelay: 0
+  AutoActivation: 1
+  AutoActivationDelay: 1
   AutoActivationDelayResetsOnExit: 1
   CanOnlyActivateIfGrounded: 0
   ShouldUpdateState: 1
@@ -22751,7 +22751,7 @@ MonoBehaviour:
   UseVisualPrompt: 1
   ButtonPromptPrefab: {fileID: 114767332097364426, guid: bb1fc0f1f16f31248b9b4d80aa795609,
     type: 3}
-  ButtonPromptText: Space
+  ButtonPromptText: E
   ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
   ButtonPromptTextColor: {r: 1, g: 1, b: 1, a: 1}
   AlwaysShowPrompt: 0
