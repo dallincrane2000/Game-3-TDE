@@ -523,7 +523,7 @@ Transform:
   - {fileID: 6392569116698863425}
   - {fileID: 6184794044058586934}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6426512994424934845
 MonoBehaviour:
@@ -620,7 +620,7 @@ MonoBehaviour:
   MutualizeWaitingPools: 1
   NestWaitingPool: 1
   NestUnderThis: 0
-  GameObjectToPool: {fileID: 921576758715180, guid: 672ecf76ecda7f14c854e4e87abdb0ff,
+  GameObjectToPool: {fileID: 9001024566134165652, guid: 22cc99ee3e6d2404191d4d8dc5cc5323,
     type: 3}
   PoolSize: 20
   PoolCanExpand: 1
