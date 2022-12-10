@@ -312,7 +312,6 @@ GameObject:
   - component: {fileID: 5183659328621489279}
   - component: {fileID: 638921160832067259}
   - component: {fileID: 6458766944195843407}
-  - component: {fileID: 3770998275363011388}
   - component: {fileID: 7189812881994172387}
   - component: {fileID: 1060309465693169062}
   m_Layer: 0
@@ -353,7 +352,6 @@ MonoBehaviour:
   - {fileID: 5183659328621489279}
   - {fileID: 638921160832067259}
   - {fileID: 6458766944195843407}
-  - {fileID: 3770998275363011388}
   - {fileID: 7189812881994172387}
   - {fileID: 1060309465693169062}
   InitializationMode: 2
@@ -653,47 +651,6 @@ MonoBehaviour:
     m_RotationOrder: 4
   Amplitude: 1
   RelativeIntensity: 0
---- !u!114 &3770998275363011388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6782130154809320540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cf8e1825623fb34b9fc92dbef54ec56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 1
-  Label: Flash
-  Chance: 100
-  Timing:
-    TimescaleMode: 0
-    ExcludeFromHoldingPauses: 0
-    ContributeToTotalDuration: 1
-    InitialDelay: 0
-    CooldownDuration: 0
-    InterruptsOnStop: 1
-    NumberOfRepeats: 0
-    RepeatForever: 0
-    DelayBetweenRepeats: 1
-    MMFeedbacksDirectionCondition: 0
-    PlayDirection: 0
-    ConstantIntensity: 0
-    UseIntensityInterval: 0
-    IntensityIntervalMin: 0
-    IntensityIntervalMax: 0
-    Sequence: {fileID: 0}
-    TrackID: 0
-    Quantized: 0
-    TargetBPM: 120
-  DebugActive: 0
-  Channel: 0
-  FlashColor: {r: 1, g: 0.5647059, b: 0, a: 1}
-  FlashDuration: 0.2
-  FlashAlpha: 0.3
-  FlashID: 0
 --- !u!114 &7189812881994172387
 MonoBehaviour:
   m_ObjectHideFlags: 0
