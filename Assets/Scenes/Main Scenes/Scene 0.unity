@@ -21118,6 +21118,12 @@ Transform:
   m_Father: {fileID: 918242443}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &304588115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 27775821022254560, guid: 49ac88dab272f9e49984ffbda925f6b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 947251885}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &633629910
 GameObject:
   m_ObjectHideFlags: 0
@@ -21298,6 +21304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Minimal2DGateToNextLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 27775821022254560, guid: 49ac88dab272f9e49984ffbda925f6b7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 29743431164973224, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -22701,7 +22712,31 @@ MonoBehaviour:
       m_Calls: []
   OnExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8320682064779689898}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 304588115}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnStay:
     m_PersistentCalls:
       m_Calls: []
@@ -22962,7 +22997,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8320682064779689899
 MonoBehaviour:
   m_ObjectHideFlags: 0
