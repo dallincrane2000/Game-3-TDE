@@ -22676,7 +22676,7 @@ MonoBehaviour:
   RequiresButtonActivationAbility: 1
   Activable: 1
   AutoActivation: 1
-  AutoActivationDelay: 0.5
+  AutoActivationDelay: 0.6
   AutoActivationDelayResetsOnExit: 0
   CanOnlyActivateIfGrounded: 0
   ShouldUpdateState: 1
@@ -22692,7 +22692,7 @@ MonoBehaviour:
   InputButton: Interact
   InputKey: 101
   AnimationTriggerParameterName: 
-  UseVisualPrompt: 1
+  UseVisualPrompt: 0
   ButtonPromptPrefab: {fileID: 114767332097364426, guid: bb1fc0f1f16f31248b9b4d80aa795609,
     type: 3}
   ButtonPromptText: E
@@ -22747,15 +22747,15 @@ MonoBehaviour:
   TextFont: {fileID: 12800000, guid: 8148e9febcd71694a8a18085f2ed966d, type: 3}
   TextSize: 40
   Alignment: 4
-  FadeDuration: 0.2
-  TransitionTime: 0.2
+  FadeDuration: 0.3
+  TransitionTime: 0.3
   Offset: {x: 0, y: 3, z: 0}
   BoxesFollowZone: 0
   CanMoveWhileTalking: 0
   ButtonHandled: 0
-  MessageDuration: 3
+  MessageDuration: 3.5
   ActivableMoreThanOnce: 1
-  InactiveTime: 2
+  InactiveTime: 10
   Dialogue:
   - DialogueLine: Come here... I have need of you...
   - DialogueLine: My energy withers. I require more souls to sustain myself...
