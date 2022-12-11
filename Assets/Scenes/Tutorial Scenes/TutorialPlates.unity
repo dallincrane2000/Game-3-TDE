@@ -23415,9 +23415,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4532343120003476, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532343120003476, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.19
+      objectReference: {fileID: 0}
     - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
       propertyPath: m_LocalPosition.z
       value: -25.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: orthographic size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: m_Priority
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.999281
+      objectReference: {fileID: 0}
+    - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114248769906142106, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -23427,6 +23463,11 @@ PrefabInstance:
     - target: {fileID: 114248769906142106, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_ConfineScreenEdges
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114374147977182758, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224053040552351924, guid: b6993e89d9af3f64182a41c77cf345c2,

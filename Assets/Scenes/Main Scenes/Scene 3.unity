@@ -500,6 +500,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 643065529879808003, guid: 98ac119b98f50d544babef8db108904d,
+        type: 3}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 670370746}
     - target: {fileID: 643065529879808014, guid: 98ac119b98f50d544babef8db108904d,
         type: 3}
       propertyPath: m_RootOrder
@@ -29039,6 +29044,11 @@ PrefabInstance:
       propertyPath: Destination
       value: 
       objectReference: {fileID: 117646286}
+    - target: {fileID: 643065529879808003, guid: 98ac119b98f50d544babef8db108904d,
+        type: 3}
+      propertyPath: TeleportationMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 643065529879808014, guid: 98ac119b98f50d544babef8db108904d,
         type: 3}
       propertyPath: m_RootOrder
@@ -29252,6 +29262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 643065529879808003, guid: 98ac119b98f50d544babef8db108904d,
+        type: 3}
+      propertyPath: Destination
+      value: 
+      objectReference: {fileID: 1161104181}
     - target: {fileID: 643065529879808014, guid: 98ac119b98f50d544babef8db108904d,
         type: 3}
       propertyPath: m_RootOrder
@@ -32233,6 +32248,11 @@ PrefabInstance:
       propertyPath: Destination
       value: 
       objectReference: {fileID: 1340626624}
+    - target: {fileID: 643065529879808003, guid: 98ac119b98f50d544babef8db108904d,
+        type: 3}
+      propertyPath: TeleportationMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 643065529879808014, guid: 98ac119b98f50d544babef8db108904d,
         type: 3}
       propertyPath: m_RootOrder
