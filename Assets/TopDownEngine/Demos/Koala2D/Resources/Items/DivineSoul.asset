@@ -32,9 +32,9 @@ MonoBehaviour:
     DisplayUseButton: 1
     DisplayUnequipButton: 1
   Quantity: 1
-  ItemName: Divine Soul
-  ShortDescription: Soul of the divine
-  Description: This soul has magical healing properties.
+  ItemName: Soul Of Heart
+  ShortDescription: Non-Consumable Soul
+  Description: This soul revives The Divines heart!
   Icon: {fileID: -1682916028, guid: 6a56a18078c29bb43907d25528374d2a, type: 3}
   Prefab: {fileID: 5768305490894603558, guid: 500fbc87fd8b5514dbe33404eabe0cae, type: 3}
   DropProperties:

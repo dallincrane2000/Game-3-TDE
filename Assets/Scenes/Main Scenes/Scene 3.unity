@@ -1074,7 +1074,7 @@ PrefabInstance:
     - target: {fileID: 139808578394546510, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
       propertyPath: LevelName
-      value: Scene 5
+      value: Scene 4
       objectReference: {fileID: 0}
     - target: {fileID: 185901945864107702, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -25140,6 +25140,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &607470726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8519666148249711613, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+    type: 3}
+  m_PrefabInstance: {fileID: 2068351775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &616279644
 GameObject:
   m_ObjectHideFlags: 0
@@ -29347,6 +29353,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorClosed: {fileID: 676257806}
   doorOpen: {fileID: 1340966491}
+  enemies:
+  - {fileID: 607470726}
+  - {fileID: 1913114359}
+  - {fileID: 1436718547}
 --- !u!4 &693941071
 Transform:
   m_ObjectHideFlags: 0
@@ -30971,6 +30981,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 73.58, y: 55, z: 49.9}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1436718547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8519666148249711613, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1693007272}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1475545978
 GameObject:
   m_ObjectHideFlags: 0
@@ -31870,6 +31886,12 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
+--- !u!1 &1913114359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8519666148249711613, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+    type: 3}
+  m_PrefabInstance: {fileID: 210310993}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918232350
 GameObject:
   m_ObjectHideFlags: 0

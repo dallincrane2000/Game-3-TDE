@@ -32,9 +32,9 @@ MonoBehaviour:
     DisplayUseButton: 1
     DisplayUnequipButton: 1
   Quantity: 1
-  ItemName: Divine Soul
-  ShortDescription: Small but powerful
-  Description: This soul revives the consumers heart!
+  ItemName: Soul Of Brain
+  ShortDescription: Non-Consumable Soul
+  Description: This soul revives The Divines brain!
   Icon: {fileID: -1570740998, guid: d7d73f2019c23ea49885c71285b018a8, type: 3}
   Prefab: {fileID: 5648194218966970570, guid: 850dea5325f56a54f858099019bc9697, type: 3}
   DropProperties:

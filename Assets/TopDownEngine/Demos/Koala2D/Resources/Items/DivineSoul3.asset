@@ -32,9 +32,9 @@ MonoBehaviour:
     DisplayUseButton: 1
     DisplayUnequipButton: 1
   Quantity: 1
-  ItemName: Divine Soul
-  ShortDescription: GREEN
-  Description: This soul revives the consumers lungs!
+  ItemName: Soul Of Lung
+  ShortDescription: Non-Consumable Soul
+  Description: This soul revives The Divines lungs!
   Icon: {fileID: -139155509, guid: 3af3a352c97b7b345b387253334f2f80, type: 3}
   Prefab: {fileID: 2632901593560707784, guid: 3847fa17b901d004e8e77e2b2562ea0d, type: 3}
   DropProperties:
