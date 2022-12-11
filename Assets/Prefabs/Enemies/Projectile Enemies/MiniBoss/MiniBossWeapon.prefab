@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2375319100296987796}
   - component: {fileID: 2455609185019595058}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ModelContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2371683672141777572}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 2410495862082364786}
   - component: {fileID: 2409582507024622140}
   - component: {fileID: 2410362742231301858}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: MiniBossWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 2370012204736749720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.76677, y: 26.341732, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2371683672141777572}
@@ -178,9 +178,9 @@ MonoBehaviour:
   BurstTimeBetweenShots: 0.1
   MagazineBased: 0
   MagazineSize: 30
-  AutoReload: 0
+  AutoReload: 1
   NoInputReload: 0
-  ReloadTime: 2
+  ReloadTime: 1
   AmmoConsumedPerShot: 1
   AutoDestroyWhenEmpty: 0
   AutoDestroyWhenEmptyDelay: 1
@@ -196,7 +196,7 @@ MonoBehaviour:
   MovementMultiplier: 0.5
   PreventAllMovementWhileInUse: 0
   PreventAllAimWhileInUse: 0
-  RecoilForce: 10
+  RecoilForce: 5
   Animators: []
   PerformAnimatorSanityChecks: 0
   WeaponAnimationID: 0
@@ -221,15 +221,15 @@ MonoBehaviour:
   InitializeOnStart: 1
   Interruptable: 0
   Flipped: 0
-  ProjectileSpawnOffset: {x: 0.29, y: 0, z: 0}
-  DefaultProjectileDirection: {x: 0, y: 0, z: 1}
-  ProjectilesPerShot: 1
+  ProjectileSpawnOffset: {x: 0, y: 0, z: 0}
+  DefaultProjectileDirection: {x: 0, y: 0, z: 0}
+  ProjectilesPerShot: 6
   SpawnTransforms: []
   SpawnTransformsMode: 1
-  Spread: {x: 0, y: 0, z: 10}
+  Spread: {x: 0, y: 0, z: 25}
   RotateWeaponOnSpread: 1
   RandomSpread: 1
-  SpawnPosition: {x: 22.05677, y: 26.341732, z: 0}
+  SpawnPosition: {x: 21.76677, y: 26.341732, z: 0}
   ObjectPooler: {fileID: 0}
   SpawnFeedbacks: []
   TestShootButton: 0
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 1491804321331004458}
   - component: {fileID: 4837405219719936245}
   - component: {fileID: 3337249807158516400}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: WeaponUsedMMFeedback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf8e1825623fb34b9fc92dbef54ec56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Active: 1
+  Active: 0
   Label: Flash
   Chance: 100
   Timing:
@@ -730,7 +730,7 @@ MonoBehaviour:
     Quantized: 0
     TargetBPM: 120
   DebugActive: 0
-  Sfx: {fileID: 8300000, guid: 3da2b314bd1a97343bae14188dcc5f30, type: 3}
+  Sfx: {fileID: 8300000, guid: f6580294a0cfc5f47a743ac2553f8f67, type: 3}
   RandomSfx: []
   TestButton: 0
   TestStopButton: 0
