@@ -21298,7 +21298,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 1240001285}
+    m_TransformParent: {fileID: 2022959459}
     m_Modifications:
     - target: {fileID: 27775821022254560, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -21439,8 +21439,8 @@ Transform:
   m_Children:
   - {fileID: 1610045579}
   - {fileID: 1638095686}
-  - {fileID: 947251886}
   - {fileID: 719181879}
+  - {fileID: 2022959459}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22485,7 +22485,6 @@ Transform:
   m_Children:
   - {fileID: 23282633}
   - {fileID: 257763821}
-  - {fileID: 8320682064779689894}
   m_Father: {fileID: 1240001285}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22839,6 +22838,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2022959458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2022959459}
+  m_Layer: 0
+  m_Name: Portal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2022959459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022959458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8320682064779689894}
+  - {fileID: 947251886}
+  m_Father: {fileID: 1240001285}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2124285559
 GameObject:
   m_ObjectHideFlags: 0
@@ -22899,8 +22931,8 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1610045579}
-  m_RootOrder: 5
+  m_Father: {fileID: 2022959459}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &8320682064779689896
 BoxCollider2D:

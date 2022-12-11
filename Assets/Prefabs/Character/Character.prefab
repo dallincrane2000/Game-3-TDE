@@ -67,7 +67,7 @@ MonoBehaviour:
   RunAnimatorSanityChecks: 0
   DisableAnimatorLogs: 1
   CharacterModel: {fileID: 3730889548295138932}
-  CharacterHealth: {fileID: 0}
+  CharacterHealth: {fileID: 3730889546843735597}
   SendStateChangeEvents: 1
   AdditionalAbilityNodes: []
   CharacterBrain: {fileID: 0}
@@ -444,7 +444,7 @@ MonoBehaviour:
   Invulnerable: 0
   InitialHealth: 100
   MaximumHealth: 100
-  ResetHealthOnEnable: 1
+  ResetHealthOnEnable: 0
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 0}
   FeedbackIsProportionalToDamage: 0
