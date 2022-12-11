@@ -188,6 +188,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 556318714373636345}
+  - {fileID: 1802907947}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20999,7 +21000,7 @@ MonoBehaviour:
   doorClosed: {fileID: 347450429}
   doorOpen: {fileID: 1672068763}
   enemies:
-  - {fileID: 0}
+  - {fileID: 1802907948}
   - {fileID: 554858364201445049}
 --- !u!1001 &1353330084
 PrefabInstance:
@@ -22207,7 +22208,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 90500614}
     m_Modifications:
     - target: {fileID: 6684688352908936971, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
@@ -22217,17 +22218,17 @@ PrefabInstance:
     - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.756757
+      value: 6.5899487
       objectReference: {fileID: 0}
     - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.9825392
+      value: 5.0865865
       objectReference: {fileID: 0}
     - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
@@ -22272,6 +22273,18 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f7af1e8c10dcff54c984549f1f41928f, type: 3}
+--- !u!4 &1802907947 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1802907946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1802907948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6684688352908936971, guid: f7af1e8c10dcff54c984549f1f41928f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1802907946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &1905684502
 LightingSettings:
   m_ObjectHideFlags: 0
