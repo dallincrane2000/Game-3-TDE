@@ -21572,7 +21572,7 @@ PrefabInstance:
     - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 2.1013658
+      value: 0.96214217
       objectReference: {fileID: 0}
     - target: {fileID: 114248769906142106, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -22915,7 +22915,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21921766, y: -0.09039214}
+  m_Offset: {x: 0.029490948, y: 0.0141375065}
   m_SpriteTilingProperty:
     border: {x: 0.25, y: 0.5625, z: 0.6875, w: 0.75}
     pivot: {x: 0.40915772, y: 0.46081316}
@@ -22926,7 +22926,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8314407, y: 1.7002382}
+  m_Size: {x: 1.8386488, y: 1.7074475}
   m_EdgeRadius: 0
 --- !u!212 &8320682064779689897
 SpriteRenderer:
@@ -22999,7 +22999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8320682064779689899
 MonoBehaviour:
   m_ObjectHideFlags: 0
