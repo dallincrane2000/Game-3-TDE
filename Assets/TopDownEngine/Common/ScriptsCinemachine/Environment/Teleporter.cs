@@ -19,6 +19,8 @@ namespace MoreMountains.TopDownEngine
 		/// the possible time modes 
 		public enum TimeModes { Unscaled, Scaled }
 
+		public AudioSource TeleportSound;
+
 		[Header("Teleporter")]
 
 		/// if true, this won't teleport non player characters
@@ -220,6 +222,7 @@ namespace MoreMountains.TopDownEngine
 			// if the teleporter has a destination, we move the colliding object to that destination
 			if (Destination != null)
 			{
+				TeleportSound.Play();
 				StartCoroutine(TeleportSequence(collider));         
 			}
 		}
