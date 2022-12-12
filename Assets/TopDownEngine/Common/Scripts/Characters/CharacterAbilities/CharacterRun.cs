@@ -14,6 +14,8 @@ namespace MoreMountains.TopDownEngine
 		/// This method is only used to display a helpbox text at the beginning of the ability's inspector
 		public override string HelpBoxText() { return "This component allows your character to change speed (defined here) when pressing the run button."; }
 
+		public AudioSource Footsteps;
+
 		[Header("Speed")]
 
 		/// the speed of the character when it's running
@@ -43,6 +45,8 @@ namespace MoreMountains.TopDownEngine
 				if (_inputManager.PrimaryMovement.magnitude > AutoRunThreshold)
 				{
 					_inputManager.RunButton.State.ChangeState(MMInput.ButtonStates.ButtonPressed);
+					Footsteps.Play();
+
 				}
 			}
 
@@ -116,7 +120,9 @@ namespace MoreMountains.TopDownEngine
 		/// Causes the character to start running.
 		/// </summary>
 		public virtual void RunStart()
-		{		
+		{
+			Footsteps.Play();
+
 			if ( !AbilityAuthorized // if the ability is not permitted
 			     || (!_controller.Grounded) // or if we're not grounded
 			     || (_condition.CurrentState != CharacterStates.CharacterConditions.Normal) // or if we're not in normal conditions
@@ -130,6 +136,7 @@ namespace MoreMountains.TopDownEngine
 			// then we change the movement speed in the controller's parameters.
 			if (_characterMovement != null)
 			{
+				Footsteps.Play();
 				_characterMovement.MovementSpeed = RunSpeed;
 			}
 
@@ -140,6 +147,8 @@ namespace MoreMountains.TopDownEngine
 				PlayAbilityUsedSfx();
 				PlayAbilityStartFeedbacks();
 				_runningStarted = true;
+				Footsteps.Play();
+
 			}
 
 			_movement.ChangeState(CharacterStates.MovementStates.Running);
@@ -152,6 +161,8 @@ namespace MoreMountains.TopDownEngine
 		{
 			if (_runningStarted)
 			{
+				Footsteps.Play();
+
 				// if the run button is released, we revert back to the walking speed.
 				if ((_characterMovement != null))
 				{

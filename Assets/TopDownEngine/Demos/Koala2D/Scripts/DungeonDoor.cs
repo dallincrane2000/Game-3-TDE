@@ -13,6 +13,8 @@ namespace MoreMountains.TopDownEngine
 	{
 		/// the possible states of the door
 		public enum DoorStates { Open, Closed }
+		public AudioSource DoorOpens;
+		public AudioSource DoorCloses;
 
 		[Header("Bindings)")]
 		/// the top part of the door
@@ -68,6 +70,7 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		public virtual void CloseDoor()
 		{
+			DoorCloses.Play();
 			DoorState = DoorStates.Closed;
 		}
 
@@ -127,6 +130,7 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		protected virtual void SetDoorOpen()
 		{
+			DoorOpens.Play();
 			OpenDoorBottom.SetActive(true);
 			OpenDoorTop.SetActive(true);
 			ClosedDoor.SetActive(false);

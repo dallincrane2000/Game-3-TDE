@@ -6,6 +6,7 @@ public class Exit : MonoBehaviour
 {
     public GameObject doorClosed;
     public GameObject doorOpen;
+    public AudioSource DoorOpens;
 
     public List<GameObject> enemies;
 
@@ -23,6 +24,7 @@ public class Exit : MonoBehaviour
         if(enemies.Count == 0)
         {
             doorClosed.SetActive(false);
+            DoorOpens.Play();
             doorOpen.SetActive(true);
         }
 
