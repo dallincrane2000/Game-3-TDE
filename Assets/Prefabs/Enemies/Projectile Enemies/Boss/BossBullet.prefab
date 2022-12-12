@@ -15092,8 +15092,8 @@ MonoBehaviour:
     m_Bits: 9984
   Owner: {fileID: 0}
   TriggerFilter: 195
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MinDamageCaused: 4
+  MaxDamageCaused: 4
   TypedDamages:
   - AssociatedDamageType: {fileID: 11400000, guid: 34cb252e231d5bf46b20591e9e9b63f7,
       type: 2}
@@ -15150,7 +15150,7 @@ MonoBehaviour:
   Mode: 0
   ObstaclesLayerMask:
     serializedVersion: 2
-    m_Bits: 8448
+    m_Bits: 256
   SkinWidth: 0.1
   RepositionRigidbodyIfHitTrigger: 1
   RepositionRigidbodyIfHitNonTrigger: 1
