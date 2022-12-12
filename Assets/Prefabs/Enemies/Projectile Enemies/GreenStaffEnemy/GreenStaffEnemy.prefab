@@ -9979,7 +9979,7 @@ Transform:
   - {fileID: 6684688353429438570}
   - {fileID: 6684688351519703373}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &6684688352908936983
 Rigidbody2D:
@@ -10690,7 +10690,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LootMode: 0
-  GameObjectToLoot: {fileID: 0}
+  GameObjectToLoot: {fileID: 1489628332787134, guid: b9143e8097c5817488bb1e3aaf435214,
+    type: 3}
   LootTable:
     ObjectsToLoot: []
     WeightsTotal: 0
