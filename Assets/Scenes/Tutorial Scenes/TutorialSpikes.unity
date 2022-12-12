@@ -364,7 +364,7 @@ Transform:
   - {fileID: 324582088}
   - {fileID: 1693020860}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &72658162 stripped
 Transform:
@@ -1191,7 +1191,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &365643854
 PrefabInstance:
@@ -6593,7 +6593,7 @@ PrefabInstance:
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.28
+      value: -14.4
       objectReference: {fileID: 0}
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
@@ -6779,7 +6779,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &598679592
 GameObject:
@@ -34876,6 +34876,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4703451067142162, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -25.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 20156376138150884, guid: b6993e89d9af3f64182a41c77cf345c2,
+        type: 3}
+      propertyPath: orthographic size
+      value: 6.9
+      objectReference: {fileID: 0}
     - target: {fileID: 20803883043551940, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_HDR
@@ -37959,82 +37972,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 356201975}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1822212365818483424
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 2
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7120590103605470461, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_Name
-      value: RangedEnemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7123105452440011453, guid: f7af1e8c10dcff54c984549f1f41928f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: f7af1e8c10dcff54c984549f1f41928f, type: 3}
 --- !u!1001 &8061143266944598838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38121,22 +38058,22 @@ PrefabInstance:
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: Dialogue.Array.data[0].DialogueLine
-      value: Hello Traveler
+      value: Fancy meeting you here, wow! You're all over the place.
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: Dialogue.Array.data[1].DialogueLine
-      value: These spikes were too quick for me
+      value: Trying to cross these spikes made me the man I am today!
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: Dialogue.Array.data[2].DialogueLine
-      value: If only I could dash using the Space key
+      value: As great as it is being a dungeon guide...
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: Dialogue.Array.data[3].DialogueLine
-      value: Maybe I wouldn't have died
+      value: I would press SPACE to dash over these spikes if I were you.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
