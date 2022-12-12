@@ -32424,6 +32424,11 @@ PrefabInstance:
       objectReference: {fileID: 1340626624}
     - target: {fileID: 643065529879808003, guid: 98ac119b98f50d544babef8db108904d,
         type: 3}
+      propertyPath: UseVisualPrompt
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 643065529879808003, guid: 98ac119b98f50d544babef8db108904d,
+        type: 3}
       propertyPath: TeleportationMode
       value: 0
       objectReference: {fileID: 0}

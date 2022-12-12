@@ -34,7 +34,7 @@ Transform:
   m_Children:
   - {fileID: 2154841539741360153}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &643065529879808001
 SpriteRenderer:
@@ -147,7 +147,7 @@ MonoBehaviour:
   InputButton: Interact
   InputKey: 32
   AnimationTriggerParameterName: 
-  UseVisualPrompt: 1
+  UseVisualPrompt: 0
   ButtonPromptPrefab: {fileID: 0}
   ButtonPromptText: A
   ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
