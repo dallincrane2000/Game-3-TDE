@@ -101,7 +101,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 3
+  m_PointLightOuterRadius: 7
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -124,10 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc7fdef873e910e49bae0be3e6c5b221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 0}
-  minIntensity: 5
-  maxIntensity: 100
-  smoothing: 1
+  flickerSpeed: 0.5
+  flickerAmount: 5
 --- !u!1 &3473707038937015226
 GameObject:
   m_ObjectHideFlags: 0
