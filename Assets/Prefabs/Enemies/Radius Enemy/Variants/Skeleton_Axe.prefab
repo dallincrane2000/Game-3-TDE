@@ -135,7 +135,7 @@ Transform:
   - {fileID: 247732977693676927}
   - {fileID: 7203366612126677758}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &50872317139119918
 Rigidbody2D:
@@ -346,6 +346,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
+  Footsteps: {fileID: 0}
   RunSpeed: 16
   AutoRun: 0
   AutoRunThreshold: 0.6
@@ -402,7 +403,7 @@ MonoBehaviour:
   DisableControllerOnDeath: 1
   DisableModelOnDeath: 1
   DisableCollisionsOnDeath: 1
-  DisableChildCollisionsOnDeath: 0
+  DisableChildCollisionsOnDeath: 1
   ChangeLayerOnDeath: 0
   ChangeLayersRecursivelyOnDeath: 0
   LayerOnDeath:

@@ -19331,11 +19331,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4736116768674126, guid: b8f18665a4c3ff24f8ac4871ddbee556, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.57
+      value: 3.08
       objectReference: {fileID: 0}
     - target: {fileID: 4736116768674126, guid: b8f18665a4c3ff24f8ac4871ddbee556, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.43
+      value: 4.93
       objectReference: {fileID: 0}
     - target: {fileID: 4736116768674126, guid: b8f18665a4c3ff24f8ac4871ddbee556, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21541,8 +21541,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 961700441
-  m_SortingLayer: 5
+  m_SortingLayerID: 1603220759
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: a4eb8ed9f5b552e43a3fe9fa39136185, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21610,6 +21610,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 1802907948}
   - {fileID: 554858364201445049}
+  - {fileID: 606864535}
 --- !u!1001 &1353330084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22865,6 +22866,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
+      propertyPath: AutoActivation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: DisableAfterUse
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
       propertyPath: DelayBetweenUses
       value: 1
       objectReference: {fileID: 0}
@@ -22875,8 +22886,33 @@ PrefabInstance:
       objectReference: {fileID: 1544012231}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
+      propertyPath: HidePromptAfterUse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
       propertyPath: Dialogue.Array.size
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: UnlimitedActivations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: MaxNumberOfActivations
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: ShowPromptWhenColliding
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: CanOnlyActivateIfGrounded
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
@@ -23018,6 +23054,11 @@ PrefabInstance:
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 9215364784325558342, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: Sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 0a6c042b25fb68b439ed454cca63f2c0, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a8530fe1d28f33468ace1ef6e3ac852, type: 3}
@@ -23256,12 +23297,12 @@ PrefabInstance:
     - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.42
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.77
+      value: 7.24
       objectReference: {fileID: 0}
     - target: {fileID: 6684688352908936982, guid: f7af1e8c10dcff54c984549f1f41928f,
         type: 3}
@@ -23577,6 +23618,26 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 90500614}
     m_Modifications:
+    - target: {fileID: 7561935334810213956, guid: d4797aee446c51549bee3fe1b65e4a20,
+        type: 3}
+      propertyPath: ResetColorOnRevive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561935334810213956, guid: d4797aee446c51549bee3fe1b65e4a20,
+        type: 3}
+      propertyPath: DisableModelOnDeath
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561935334810213956, guid: d4797aee446c51549bee3fe1b65e4a20,
+        type: 3}
+      propertyPath: DelayBeforeDestruction
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561935334810213956, guid: d4797aee446c51549bee3fe1b65e4a20,
+        type: 3}
+      propertyPath: DisableChildCollisionsOnDeath
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7593900160391595120, guid: d4797aee446c51549bee3fe1b65e4a20,
         type: 3}
       propertyPath: m_Name
@@ -23595,12 +23656,12 @@ PrefabInstance:
     - target: {fileID: 7595817357376315952, guid: d4797aee446c51549bee3fe1b65e4a20,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.32
+      value: -3.65
       objectReference: {fileID: 0}
     - target: {fileID: 7595817357376315952, guid: d4797aee446c51549bee3fe1b65e4a20,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.64
+      value: 6.46
       objectReference: {fileID: 0}
     - target: {fileID: 7595817357376315952, guid: d4797aee446c51549bee3fe1b65e4a20,
         type: 3}
