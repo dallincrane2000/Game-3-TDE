@@ -21793,7 +21793,7 @@ PrefabInstance:
     - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.8854489
+      value: 1.755418
       objectReference: {fileID: 0}
     - target: {fileID: 114246380927595094, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -21818,12 +21818,12 @@ PrefabInstance:
     - target: {fileID: 224053040552351924, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224053040552351924, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224053040552351924, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -21843,12 +21843,12 @@ PrefabInstance:
     - target: {fileID: 224053040552351924, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -50.5
       objectReference: {fileID: 0}
     - target: {fileID: 224053040552351924, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 224058847079603344, guid: b6993e89d9af3f64182a41c77cf345c2,
         type: 3}
@@ -23551,7 +23551,7 @@ MonoBehaviour:
   RequiresButtonActivationAbility: 1
   Activable: 1
   AutoActivation: 1
-  AutoActivationDelay: 0.75
+  AutoActivationDelay: 0.25
   AutoActivationDelayResetsOnExit: 0
   CanOnlyActivateIfGrounded: 0
   ShouldUpdateState: 1
@@ -23661,7 +23661,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.046352416, y: -0.25711533}
+  m_Offset: {x: 0.03922671, y: -0.26599407}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -23672,7 +23672,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5200993, y: 0.45070547}
+  m_Size: {x: 0.49808222, y: 0.4442245}
   m_EdgeRadius: 0
 --- !u!4 &1842562408 stripped
 Transform:
