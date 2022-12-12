@@ -1132,7 +1132,7 @@ PrefabInstance:
     - target: {fileID: 139808578394546510, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
       propertyPath: LevelName
-      value: Scene 4
+      value: Scene 2
       objectReference: {fileID: 0}
     - target: {fileID: 185901945864107702, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -28819,6 +28819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorClosed: {fileID: 676257806}
   doorOpen: {fileID: 1340966491}
+  DoorOpens: {fileID: 0}
   enemies:
   - {fileID: 607470726}
   - {fileID: 1913114359}
