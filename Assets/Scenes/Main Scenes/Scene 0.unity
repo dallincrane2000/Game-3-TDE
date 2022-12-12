@@ -23517,7 +23517,7 @@ MonoBehaviour:
   RequiresButtonActivationAbility: 1
   Activable: 1
   AutoActivation: 1
-  AutoActivationDelay: 0.6
+  AutoActivationDelay: 0.75
   AutoActivationDelayResetsOnExit: 0
   CanOnlyActivateIfGrounded: 0
   ShouldUpdateState: 1
@@ -23608,7 +23608,7 @@ MonoBehaviour:
   ButtonHandled: 0
   MessageDuration: 3
   ActivableMoreThanOnce: 1
-  InactiveTime: 10
+  InactiveTime: 20
   Dialogue:
   - DialogueLine: Come here... I have need of you...
   - DialogueLine: My energy withers. I require more souls to sustain myself...
