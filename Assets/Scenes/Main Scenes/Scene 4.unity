@@ -42206,12 +42206,12 @@ PrefabInstance:
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.191006
+      value: -14.48
       objectReference: {fileID: 0}
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.126976
+      value: -8.09
       objectReference: {fileID: 0}
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
@@ -42794,9 +42794,9 @@ MonoBehaviour:
   - {fileID: 0}
   InventoryType: 0
   TargetTransform: {fileID: 0}
-  Persistent: 0
+  Persistent: 1
   ResetThisInventorySaveOnStart: 0
-  DrawContentInInspector: 1
+  DrawContentInInspector: 0
 --- !u!1 &1291916041
 GameObject:
   m_ObjectHideFlags: 0
@@ -43221,12 +43221,12 @@ PrefabInstance:
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.3089952
+      value: 7.11
       objectReference: {fileID: 0}
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.126976
+      value: -9.32
       objectReference: {fileID: 0}
     - target: {fileID: 2374057790761850389, guid: 3c1a12c9aa13005459e70c530a13503b,
         type: 3}
@@ -43946,6 +43946,12 @@ PrefabInstance:
       propertyPath: DelayBeforeDestruction
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3655980622306359264, guid: 8508aa11781c7a9488e05a79858cec71,
+        type: 3}
+      propertyPath: GameObjectToLoot
+      value: 
+      objectReference: {fileID: 5768305490894603558, guid: 500fbc87fd8b5514dbe33404eabe0cae,
+        type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 8508aa11781c7a9488e05a79858cec71, type: 3}
