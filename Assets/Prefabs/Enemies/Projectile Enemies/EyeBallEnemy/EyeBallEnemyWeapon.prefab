@@ -139,10 +139,10 @@ MonoBehaviour:
   Flipped: 0
   ProjectileSpawnOffset: {x: 0.97, y: 0.01, z: 0}
   DefaultProjectileDirection: {x: 0, y: 0, z: 1}
-  ProjectilesPerShot: 1
+  ProjectilesPerShot: 2
   SpawnTransforms: []
   SpawnTransformsMode: 1
-  Spread: {x: 0, y: 0, z: 10}
+  Spread: {x: 0, y: 0, z: 20}
   RotateWeaponOnSpread: 1
   RandomSpread: 1
   SpawnPosition: {x: -0.049000025, y: 0.013, z: 0}
