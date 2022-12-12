@@ -38053,7 +38053,7 @@ PrefabInstance:
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: Dialogue.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
@@ -38068,11 +38068,16 @@ PrefabInstance:
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: Dialogue.Array.data[2].DialogueLine
-      value: As great as it is being a dungeon guide...
+      value: Just kidding. That was the box puzzle. Remember?
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: Dialogue.Array.data[3].DialogueLine
+      value: As great as it is being a dungeon guide...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061143266693394223, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
+      propertyPath: Dialogue.Array.data[4].DialogueLine
       value: I would press SPACE to dash over these spikes if I were you.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
