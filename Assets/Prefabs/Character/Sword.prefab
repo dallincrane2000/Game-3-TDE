@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 114096976402940132}
   - component: {fileID: 114049947547974234}
   m_Layer: 10
-  m_Name: KoalaSword
+  m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,7 +87,7 @@ MonoBehaviour:
   WeaponCurrentlyActive: 1
   InputAuthorized: 1
   TriggerMode: 0
-  DelayBeforeUse: 0.4
+  DelayBeforeUse: 0.1
   DelayBeforeUseReleaseInterruption: 0
   TimeBetweenUses: 0.1
   TimeBetweenUsesReleaseInterruption: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   MovementMultiplier: 0
   PreventAllMovementWhileInUse: 1
   PreventAllAimWhileInUse: 0
-  RecoilForce: -500
+  RecoilForce: 0
   Animators:
   - {fileID: 95971963482004484}
   PerformAnimatorSanityChecks: 0
@@ -151,11 +151,11 @@ MonoBehaviour:
   ActiveDuration: 0.2
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 8448
+    m_Bits: 8192
   MinDamageCaused: 10
   MaxDamageCaused: 10
   Knockback: 1
-  KnockbackForce: {x: 500, y: 0, z: 0}
+  KnockbackForce: {x: 300, y: 0, z: 0}
   InvincibilityDuration: 0.5
   CanDamageOwner: 0
 --- !u!114 &114290391021249986
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831551693771866}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a557e2b93323f4831a62221b200348c4, type: 3}
   m_Name: 
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831551693771866}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a557e2b93323f4831a62221b200348c4, type: 3}
   m_Name: 
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831551693771866}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72343fc0e13ec114196ab09ea808900e, type: 3}
   m_Name: 
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 212683281439507044}
   - component: {fileID: 95971963482004484}
   m_Layer: 10
-  m_Name: Koala_Sword
+  m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf8e1825623fb34b9fc92dbef54ec56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Active: 1
+  Active: 0
   Label: Flash
   Chance: 100
   Timing:
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf8e1825623fb34b9fc92dbef54ec56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Active: 1
+  Active: 0
   Label: Flash
   Chance: 100
   Timing:
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf8e1825623fb34b9fc92dbef54ec56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Active: 1
+  Active: 0
   Label: Flash
   Chance: 100
   Timing:

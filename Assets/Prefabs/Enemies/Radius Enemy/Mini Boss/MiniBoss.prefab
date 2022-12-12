@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4067358023085436}
   - component: {fileID: 212797044214329334}
   m_Layer: 13
-  m_Name: NinjaModel
-  m_TagString: Untagged
+  m_Name: Model
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,12 +75,12 @@ SpriteRenderer:
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d09d855f5f5ef4fed862392189a4b8a1, type: 3}
+  m_Sprite: {fileID: 159380279, guid: d09d855f5f5ef4fed862392189a4b8a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.24}
+  m_Size: {x: 1.6875, y: 1.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 10
+  Radius: 9
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
@@ -486,7 +486,7 @@ MonoBehaviour:
   ObstaclesDetectionMode: 1
   CanTargetSelf: 0
   TargetCheckFrequency: 1
-  OverlapMaximum: 10
+  OverlapMaximum: 9
 --- !u!114 &114631777180868210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10653,7 +10653,7 @@ MonoBehaviour:
     Quantized: 0
     TargetBPM: 120
   DebugActive: 0
-  Sfx: {fileID: 8300000, guid: 51f2769dc716d1148844990d0d22ecd9, type: 3}
+  Sfx: {fileID: 8300000, guid: 339d56e3644da1a4abd5a472b898fb4a, type: 3}
   RandomSfx: []
   TestButton: 0
   TestStopButton: 0

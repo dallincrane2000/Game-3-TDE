@@ -10278,7 +10278,7 @@ MonoBehaviour:
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 0.5
   DestroyOnDeath: 1
-  DelayBeforeDestruction: 2
+  DelayBeforeDestruction: 1
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 0
   DisableControllerOnDeath: 1
@@ -10363,7 +10363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 10
+  Radius: 9
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
@@ -10436,7 +10436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Label: 
   ComparisonMode: 1
-  Distance: 10
+  Distance: 9
 --- !u!114 &6684688352908936964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10718,7 +10718,7 @@ GameObject:
   - component: {fileID: 6684688353136057680}
   - component: {fileID: 6684688353136057683}
   m_Layer: 13
-  m_Name: NinjaModel
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10922,7 +10922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d83ae645c92af634f89036dd5302f84a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Active: 1
+  Active: 0
   Label: Flicker
   Chance: 100
   Timing:

@@ -4837,7 +4837,7 @@ GameObject:
   - component: {fileID: 7595382052773083636}
   - component: {fileID: 7751885870447503942}
   m_Layer: 13
-  m_Name: NinjaModel
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9889,7 +9889,7 @@ Transform:
   - {fileID: 8980628797287007505}
   - {fileID: 7545785390785118149}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &7626587939883185932
 Rigidbody2D:
@@ -10070,7 +10070,7 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 6
+  WalkSpeed: 4
   ShouldSetMovement: 1
   IdleThreshold: 0.05
   Acceleration: 10
@@ -10087,7 +10087,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7593900160391595120}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d103439fc2940e347937487a70ea01e3, type: 3}
   m_Name: 
@@ -10189,7 +10189,7 @@ MonoBehaviour:
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 1
   DestroyOnDeath: 1
-  DelayBeforeDestruction: 2
+  DelayBeforeDestruction: 1
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 0
   DisableControllerOnDeath: 1
@@ -10274,7 +10274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 8
+  Radius: 9
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2

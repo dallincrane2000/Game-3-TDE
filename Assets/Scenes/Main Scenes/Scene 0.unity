@@ -21225,7 +21225,7 @@ GameObject:
   - component: {fileID: 719181879}
   - component: {fileID: 719181878}
   m_Layer: 0
-  m_Name: Guide
+  m_Name: Overlord
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21482,6 +21482,16 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelName
       value: TutorialPlates
+      objectReference: {fileID: 0}
+    - target: {fileID: 139808578394546510, guid: 49ac88dab272f9e49984ffbda925f6b7,
+        type: 3}
+      propertyPath: EnterFeedback
+      value: 
+      objectReference: {fileID: 1444512275}
+    - target: {fileID: 139808578394546510, guid: 49ac88dab272f9e49984ffbda925f6b7,
+        type: 3}
+      propertyPath: UseVisualPrompt
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 185901945864107702, guid: 49ac88dab272f9e49984ffbda925f6b7,
         type: 3}
@@ -22877,6 +22887,169 @@ PrefabInstance:
     - {fileID: 114973432071569650, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: b6993e89d9af3f64182a41c77cf345c2, type: 3}
+--- !u!1 &1444512272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1444512273}
+  - component: {fileID: 1444512275}
+  - component: {fileID: 1444512274}
+  m_Layer: 0
+  m_Name: Feedback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1444512273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444512272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2022959459}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1444512274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444512272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    ExcludeFromHoldingPauses: 0
+    ContributeToTotalDuration: 1
+    InitialDelay: 0
+    CooldownDuration: 0
+    InterruptsOnStop: 1
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    MMFeedbacksDirectionCondition: 0
+    PlayDirection: 0
+    ConstantIntensity: 0
+    UseIntensityInterval: 0
+    IntensityIntervalMin: 0
+    IntensityIntervalMax: 0
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 8300000, guid: 7ee80f0461acd534a90a49556f875321, type: 3}
+  RandomSfx: []
+  TestButton: 0
+  TestStopButton: 0
+  PlayMethod: 0
+  PoolSize: 10
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  SfxAudioMixerGroup: {fileID: 0}
+  Priority: 128
+--- !u!114 &1444512275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444512272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841b72de2996c5c40bfb394f3d0e0a98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Feedbacks:
+  - {fileID: 1444512274}
+  InitializationMode: 2
+  SafeMode: 3
+  Direction: 0
+  AutoChangeDirectionOnEnd: 0
+  AutoPlayOnStart: 0
+  AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
+  DurationMultiplier: 1
+  RandomizeDuration: 0
+  RandomDurationMultiplier: {x: 0.5, y: 1.5}
+  DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
+  OnlyPlayIfWithinRange: 0
+  RangeCenter: {fileID: 0}
+  RangeDistance: 5
+  UseRangeFalloff: 0
+  RangeFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RemapRangeFalloff: {x: 0, y: 1}
+  IgnoreRangeEvents: 0
+  CooldownDuration: 0
+  InitialDelay: 0
+  CanPlay: 1
+  CanPlayWhileAlreadyPlaying: 1
+  ChanceToPlay: 100
+  FeedbacksIntensity: 1
+  Events:
+    TriggerMMFeedbacksEvents: 0
+    TriggerUnityEvents: 1
+    OnPlay:
+      m_PersistentCalls:
+        m_Calls: []
+    OnPause:
+      m_PersistentCalls:
+        m_Calls: []
+    OnResume:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRevert:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+  DebugActive: 0
 --- !u!1 &1505393563
 GameObject:
   m_ObjectHideFlags: 0
@@ -23493,6 +23666,7 @@ Transform:
   - {fileID: 8320682064779689894}
   - {fileID: 947251886}
   - {fileID: 1246813979}
+  - {fileID: 1444512273}
   m_Father: {fileID: 1240001285}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23761,7 +23935,7 @@ MonoBehaviour:
   InputButton: Interact
   InputKey: 32
   AnimationTriggerParameterName: 
-  UseVisualPrompt: 1
+  UseVisualPrompt: 0
   ButtonPromptPrefab: {fileID: 0}
   ButtonPromptText: A
   ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
@@ -23773,7 +23947,7 @@ MonoBehaviour:
   PromptRotation: {x: 0, y: 0, z: 0}
   ActivationFeedback: {fileID: 0}
   DeniedFeedback: {fileID: 0}
-  EnterFeedback: {fileID: 0}
+  EnterFeedback: {fileID: 1444512275}
   ExitFeedback: {fileID: 0}
   OnActivation:
     m_PersistentCalls:

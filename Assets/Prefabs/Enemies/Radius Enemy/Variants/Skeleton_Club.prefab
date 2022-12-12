@@ -396,7 +396,7 @@ MonoBehaviour:
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 0.5
   DestroyOnDeath: 1
-  DelayBeforeDestruction: 2
+  DelayBeforeDestruction: 1
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 0
   DisableControllerOnDeath: 1
@@ -547,8 +547,8 @@ MonoBehaviour:
     m_Bits: 1024
   Owner: {fileID: 0}
   TriggerFilter: 195
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MinDamageCaused: 4
+  MaxDamageCaused: 4
   TypedDamages: []
   DamageDirectionMode: 1
   DamageCausedKnockbackType: 2

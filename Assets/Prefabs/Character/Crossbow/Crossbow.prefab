@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 114251315345146356}
   - component: {fileID: 8466889087595892300}
   m_Layer: 0
-  m_Name: KoalaRifleAmmoBased
+  m_Name: Crossbow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,14 +142,14 @@ MonoBehaviour:
   TriggerMode: 0
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 0.75
+  TimeBetweenUses: 0.65
   TimeBetweenUsesReleaseInterruption: 1
   UseBurstMode: 0
   BurstLength: 3
   BurstTimeBetweenShots: 0.1
   MagazineBased: 0
   MagazineSize: 30
-  AutoReload: 0
+  AutoReload: 1
   NoInputReload: 0
   ReloadTime: 2
   AmmoConsumedPerShot: 1

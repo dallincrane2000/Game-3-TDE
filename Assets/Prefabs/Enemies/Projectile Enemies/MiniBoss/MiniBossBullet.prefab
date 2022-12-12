@@ -5313,8 +5313,8 @@ MonoBehaviour:
     m_Bits: 1024
   Owner: {fileID: 0}
   TriggerFilter: 195
-  MinDamageCaused: 5
-  MaxDamageCaused: 5
+  MinDamageCaused: 4
+  MaxDamageCaused: 4
   TypedDamages:
   - AssociatedDamageType: {fileID: 11400000, guid: 34cb252e231d5bf46b20591e9e9b63f7,
       type: 2}

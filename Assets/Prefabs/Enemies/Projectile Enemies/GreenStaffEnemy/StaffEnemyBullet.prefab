@@ -41,7 +41,7 @@ Transform:
   - {fileID: 6749255943096912066}
   - {fileID: 2397691354763442772}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &112935922044525734
 MonoBehaviour:
@@ -153,11 +153,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 9984
+    m_Bits: 1024
   Owner: {fileID: 0}
   TriggerFilter: 195
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MinDamageCaused: 4
+  MaxDamageCaused: 4
   TypedDamages:
   - AssociatedDamageType: {fileID: 11400000, guid: 34cb252e231d5bf46b20591e9e9b63f7,
       type: 2}
@@ -174,8 +174,8 @@ MonoBehaviour:
   DamageDirectionMode: 1
   DamageCausedKnockbackType: 1
   DamageCausedKnockbackDirection: 3
-  DamageCausedKnockbackForce: {x: 400, y: 0, z: 0}
-  InvincibilityDuration: 0.1
+  DamageCausedKnockbackForce: {x: 200, y: 0, z: 0}
+  InvincibilityDuration: 0.2
   RepeatDamageOverTime: 0
   AmountOfRepeats: 3
   DurationBetweenRepeats: 1
@@ -214,7 +214,7 @@ MonoBehaviour:
   Mode: 0
   ObstaclesLayerMask:
     serializedVersion: 2
-    m_Bits: 8448
+    m_Bits: 1280
   SkinWidth: 0.1
   RepositionRigidbodyIfHitTrigger: 1
   RepositionRigidbodyIfHitNonTrigger: 1

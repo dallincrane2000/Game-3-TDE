@@ -5543,7 +5543,7 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 6
+  WalkSpeed: 5
   ShouldSetMovement: 1
   IdleThreshold: 0.05
   Acceleration: 10
@@ -5651,14 +5651,14 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 0
   Invulnerable: 0
-  InitialHealth: 50
-  MaximumHealth: 50
+  InitialHealth: 100
+  MaximumHealth: 100
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 8994088508374713211}
   FeedbackIsProportionalToDamage: 0
   PreventTakeSelfDamage: 0
-  ImmuneToKnockback: 0
+  ImmuneToKnockback: 1
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 1
   DestroyOnDeath: 1
@@ -5747,7 +5747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 8
+  Radius: 9
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
@@ -5759,7 +5759,7 @@ MonoBehaviour:
   ObstaclesDetectionMode: 1
   CanTargetSelf: 0
   TargetCheckFrequency: 1
-  OverlapMaximum: 10
+  OverlapMaximum: 9
 --- !u!114 &1598118981938386147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5820,7 +5820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Label: 
   ComparisonMode: 1
-  Distance: 9
+  Distance: 10
 --- !u!114 &1598339902428083579
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4980,7 +4980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 8960
+    m_Bits: 8448
   Owner: {fileID: 0}
   TriggerFilter: 195
   MinDamageCaused: 10
@@ -4989,7 +4989,7 @@ MonoBehaviour:
   DamageDirectionMode: 1
   DamageCausedKnockbackType: 1
   DamageCausedKnockbackDirection: 3
-  DamageCausedKnockbackForce: {x: 400, y: 0, z: 0}
+  DamageCausedKnockbackForce: {x: 100, y: 0, z: 0}
   InvincibilityDuration: 0.1
   RepeatDamageOverTime: 0
   AmountOfRepeats: 3
