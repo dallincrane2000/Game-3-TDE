@@ -137,7 +137,6 @@ namespace MoreMountains.MMInterface
 			{
 				return;
 			}
-
 			SpriteOff ();
 		}
 
@@ -169,8 +168,7 @@ namespace MoreMountains.MMInterface
 			{
 				return;
 			}
-
-			SpriteOn ();
+			SpriteOn();
 		}	
 
 		/// <summary>
@@ -178,7 +176,7 @@ namespace MoreMountains.MMInterface
 		/// </summary>
 		protected virtual void SpriteOn()
 		{
-			
+
 			if (_image != null)
 			{
 				_image.sprite = OnSprite;
