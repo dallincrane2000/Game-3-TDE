@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 114103483350062584}
   - component: {fileID: 114778105809703722}
   m_Layer: 13
-  m_Name: Skeleton_2
+  m_Name: Skeleton_Axe
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
