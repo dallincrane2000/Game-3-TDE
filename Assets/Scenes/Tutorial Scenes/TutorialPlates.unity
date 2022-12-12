@@ -24927,6 +24927,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8061143266197630289, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0a9cde754f273b040921e8336de67bd1,
+        type: 3}
+    - target: {fileID: 8061143266197630289, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -24943,12 +24949,12 @@ PrefabInstance:
     - target: {fileID: 8061143266197630291, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7799826
+      value: -1.96
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266197630291, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.8779407
+      value: 1.48
       objectReference: {fileID: 0}
     - target: {fileID: 8061143266197630291, guid: 2a8530fe1d28f33468ace1ef6e3ac852,
         type: 3}
@@ -25010,7 +25016,8 @@ PrefabInstance:
       propertyPath: Dialogue.Array.data[3].DialogueLine
       value: maybe I should have pushed that box onto the pressure pad
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8061143266197630288, guid: 2a8530fe1d28f33468ace1ef6e3ac852, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a8530fe1d28f33468ace1ef6e3ac852, type: 3}
 --- !u!4 &1739481199 stripped
