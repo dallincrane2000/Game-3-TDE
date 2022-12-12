@@ -21,11 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial Scenes/TutorialSpikes.unity
     guid: 5832174c627f06b48833d243b94e2096
   - enabled: 1
-    path: Assets/Scenes/Main Scenes/Scene 2.unity
-    guid: a164fbd6672474c47b2ceec73f6a819d
-  - enabled: 1
     path: Assets/Scenes/Main Scenes/Scene 3.unity
     guid: ccf2e7da09aad26469e06ff8c9466b00
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/Scene 2.unity
+    guid: a164fbd6672474c47b2ceec73f6a819d
   - enabled: 1
     path: Assets/Scenes/Main Scenes/Scene 4.unity
     guid: 14751bf6683ec41489f64785b5179ca0
