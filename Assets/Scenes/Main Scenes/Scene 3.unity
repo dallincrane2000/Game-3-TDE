@@ -131,6 +131,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1879784306}
     m_Modifications:
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootTableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0237cb0e8ad2dc4449bcbf7b1387b2d9,
+        type: 2}
     - target: {fileID: 8516552547247134141, guid: 1efcadc99d3a74348a66a6cc10d30d99,
         type: 3}
       propertyPath: m_RootOrder
@@ -565,6 +576,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1879784306}
     m_Modifications:
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootTableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0237cb0e8ad2dc4449bcbf7b1387b2d9,
+        type: 2}
     - target: {fileID: 8516552547247134141, guid: 1efcadc99d3a74348a66a6cc10d30d99,
         type: 3}
       propertyPath: m_RootOrder
@@ -29134,6 +29156,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1879784306}
     m_Modifications:
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootTableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0237cb0e8ad2dc4449bcbf7b1387b2d9,
+        type: 2}
     - target: {fileID: 8516552547247134141, guid: 1efcadc99d3a74348a66a6cc10d30d99,
         type: 3}
       propertyPath: m_RootOrder
@@ -30857,6 +30890,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1879784306}
     m_Modifications:
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootTableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0237cb0e8ad2dc4449bcbf7b1387b2d9,
+        type: 2}
     - target: {fileID: 8516552547247134141, guid: 1efcadc99d3a74348a66a6cc10d30d99,
         type: 3}
       propertyPath: m_RootOrder
@@ -31327,6 +31371,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1879784306}
     m_Modifications:
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootTableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0237cb0e8ad2dc4449bcbf7b1387b2d9,
+        type: 2}
     - target: {fileID: 8516552547247134141, guid: 1efcadc99d3a74348a66a6cc10d30d99,
         type: 3}
       propertyPath: m_RootOrder
@@ -32131,6 +32186,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1879784306}
     m_Modifications:
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048770957078379619, guid: 1efcadc99d3a74348a66a6cc10d30d99,
+        type: 3}
+      propertyPath: LootTableSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0237cb0e8ad2dc4449bcbf7b1387b2d9,
+        type: 2}
     - target: {fileID: 8516552547247134141, guid: 1efcadc99d3a74348a66a6cc10d30d99,
         type: 3}
       propertyPath: m_RootOrder
