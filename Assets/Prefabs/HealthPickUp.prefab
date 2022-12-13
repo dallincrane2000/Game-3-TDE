@@ -558,5 +558,5 @@ MonoBehaviour:
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
   Model: {fileID: 3368050443888366272}
-  HealthToGive: 50
+  HealthToGive: 20
   OnlyForPlayerCharacter: 1
