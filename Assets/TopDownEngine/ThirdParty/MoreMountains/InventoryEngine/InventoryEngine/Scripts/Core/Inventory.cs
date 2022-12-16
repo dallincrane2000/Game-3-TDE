@@ -237,10 +237,10 @@ namespace MoreMountains.InventoryEngine
 		/// <returns></returns>
 		public virtual bool AddItemAt(InventoryItem itemToAdd, int quantity, int destinationIndex)
 		{
-			if (!InventoryItem.IsNull(Content[destinationIndex]))
-			{
-				return false;
-			}
+			//if (!InventoryItem.IsNull(Content[destinationIndex]))
+			//{
+				//return false;
+			//}
 
 			int tempQuantity = quantity;
 			if (tempQuantity > itemToAdd.MaximumStack)
@@ -248,8 +248,8 @@ namespace MoreMountains.InventoryEngine
 				tempQuantity = itemToAdd.MaximumStack;
 			}
             
-			Content[destinationIndex] = itemToAdd.Copy();
-			Content[destinationIndex].Quantity = tempQuantity;
+			//Content[destinationIndex] = itemToAdd.Copy();
+			//Content[destinationIndex].Quantity = tempQuantity;
             
 			// if we're still here, we add the item in the first available slot
 			MMInventoryEvent.Trigger(MMInventoryEventType.ContentChanged, null, this.name, null, 0, 0, PlayerID);

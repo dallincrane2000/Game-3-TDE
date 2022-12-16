@@ -8,6 +8,8 @@ public class Torch : MonoBehaviour
     public float flickerSpeed = 0.5f;
     public float flickerAmount = 0.1f;
 
+    public AudioSource TorchSound;
+
     private Light2D light;
     private float baseIntensity;
 
@@ -18,6 +20,8 @@ public class Torch : MonoBehaviour
 
         // Store the base intensity of the light
         baseIntensity = light.intensity;
+
+        TorchSound.Play();
     }
 
     void Update()
