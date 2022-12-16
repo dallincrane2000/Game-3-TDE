@@ -9,7 +9,7 @@ public class changeScene : MonoBehaviour
     {
         if(GameObject.FindWithTag("Enemy") == false)
         {
-            SceneManager.LoadScene("End Screen");
+            SceneManager.LoadScene("EndScreen");
         }
     }
 }
