@@ -30,9 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Scenes/Scene 4.unity
     guid: 14751bf6683ec41489f64785b5179ca0
   - enabled: 1
-    path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
-    guid: 888394d52616e5e42b3b54c3f2bbd3eb
-  - enabled: 1
     path: Assets/Scenes/Menu Scenes/EndScreen.unity
     guid: 4eeba13f14ec72947804cd569cbb80a5
+  - enabled: 1
+    path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
+    guid: 888394d52616e5e42b3b54c3f2bbd3eb
   m_configObjects: {}
