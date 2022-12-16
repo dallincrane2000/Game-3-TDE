@@ -121,7 +121,6 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		public virtual void RunStart()
 		{
-			Footsteps.Play();
 
 			if ( !AbilityAuthorized // if the ability is not permitted
 			     || (!_controller.Grounded) // or if we're not grounded
@@ -161,7 +160,6 @@ namespace MoreMountains.TopDownEngine
 		{
 			if (_runningStarted)
 			{
-				Footsteps.Play();
 
 				// if the run button is released, we revert back to the walking speed.
 				if ((_characterMovement != null))

@@ -36,6 +36,7 @@ namespace MoreMountains.TopDownEngine
 		protected const string _hitTheGroundAnimationParameterName = "HitTheGround";
 		protected int _jumpingAnimationParameter;
 		protected int _hitTheGroundAnimationParameter;
+		public AudioSource PlayerJump;
 
 		/// <summary>
 		/// On init we grab our components
@@ -103,6 +104,8 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		public virtual void JumpStart()
 		{
+			PlayerJump.Play();
+
 			if (!EvaluateJumpConditions())
 			{
 				return;
